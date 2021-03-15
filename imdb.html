@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+  .twoBlock {
+      width: 1280px;
+      height:400px;
+      background: white;
+      margin-left: 23px;
+      margin-right: -10px;
+      margin-top: -395px;}
+  </style>
+  
+  <style>
+  .twoBlockChild1 {
+      display: inline-block;
+      vertical-align: top;
+      width: 510px;
+      height:395px;
+      margin-right: -4px;
+      background: black; }
+
+    .twoBlockChild1:before {
+      content:"";
+      position:absolute;
+      top: 510px;
+      right:1230px;
+      background: url(https://i.ibb.co/vQBc7hk/image15.png);
+      background-size:contain;
+      width: 156px;
+      height:221px;}
+
+      .twoBlockChild1:after {
+      content:"";
+      position:absolute;
+      background: green;
+      top: 505px;
+      right:1350px;
+      background: url(https://i.ibb.co/Vj6kXMj/image17.png);
+      background-size:contain;
+      width: 32px;
+      height:32px;}
+  </style>
+
+<style>
+  .txt1:after{
+  content:"Jason Bourne";
+  font-family: DejaVu Sans Mono, monospace;
+  font-size: 24px;
+  display: block;
+  position:absolute;
+  top: 500px;
+  right: 830px;
+  width:300px;
+  height: 50px;
+  color:rgb(207, 212, 216);
+  padding: 10px;}
+
+  .txt2:after{
+  content: "year";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 550px;
+  right: 1100px;
+  width:80px;
+  height: 50px;
+  color: rgb(26, 87, 156);
+  padding: 10px;}
+
+  .txt3:after{
+  content: "country";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 580px;
+  right: 1100px;
+  width:80px;
+  height: 50px;
+  color: rgb(26, 87, 156);
+  padding: 10px;}
+
+  .txt4:after{
+  content: "director";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 610px;
+  right: 1100px;
+  width:80px;
+  height: 50px;
+  color: rgb(26, 87, 156);
+  padding: 10px;}
+
+  .txt5:after{
+  content: "genres";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 640px;
+  right: 1100px;
+  width:80px;
+  height: 50px;
+  color: rgb(26, 87, 156);
+  padding: 10px;}
+
+  .txt6:after{
+  content: "budget";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 670px;
+  right: 1100px;
+  width:80px;
+  height: 50px;
+  color: rgb(26, 87, 156);
+  padding: 10px;}
+
+  .txt7:after{
+  content: "duration";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 700px;
+  right: 1100px;
+  width:80px;
+  height: 50px;
+  color: rgb(26, 87, 156);
+  padding: 10px;}
+
+  .txt8:after{
+  content: "2016";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 550px;
+  right: 950px;
+  width:80px;
+  height: 50px;
+  color:rgb(207, 212, 216);
+  padding: 10px;}
+
+  .txt9:after{
+  content: "USA";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 580px;
+  right: 950px;
+  width:80px;
+  height: 50px;
+  color:rgb(207, 212, 216);
+  padding: 10px;}
+
+  .txt10:after{
+  content: "Paul Greengrass";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 610px;
+  right: 860px;
+  width:170px;
+  height: 50px;
+  color:rgb(207, 212, 216);
+  padding: 10px;}
+
+  .txt11:after{
+  content:"";
+  font-family: DejaVu Sans Mono, monospace;
+   background: url(https://i.ibb.co/Qvn00Sr/image18.png);
+   background-size: cover;
+  display: block;
+  position:absolute;
+  top: 650px;
+  right: 920px;
+  width:170px;
+  height: 20px;}
+
+  .txt12:after{
+  content: "action";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 643px;
+  right: 900px;
+  width:170px;
+  height: 50px;
+  color:rgb(207, 212, 216);
+  padding: 10px;}
+
+  .txt13:after{
+  content: "thriller";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 643px;
+  right: 810px;
+  width:170px;
+  height: 50px;
+  color:rgb(207, 212, 216);
+  padding: 10px;}
+
+  .txt14:after{
+  content: "$120 000 000";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 670px;
+  right: 860px;
+  width:170px;
+  height: 50px;
+  color:rgb(207, 212, 216);
+  padding: 10px;}
+
+  .txt15:after{
+  content: "123min";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 700px;
+  right: 860px;
+  width:170px;
+  height: 50px;
+  color:rgb(207, 212, 216);
+  padding: 10px;}
+
+  .txt16:after{
+  content: "You might remember the Dell computer commercials in which a youth reports this exciting news to his friends that they are about to get their new computer by telling them.";
+  font-family: DejaVu Sans Mono, monospace;
+  font-size: 14px;
+  display: block;
+  position:absolute;
+  top: 730px;
+  right: 890px;
+  width:471px;
+  height: 50px;
+  color:rgb(207, 212, 216);
+  padding: 10px;}
+
+
+  .img1:after{
+  content:"";
+  font-family: DejaVu Sans Mono, monospace;
+   background: url(https://i.ibb.co/pj93KK5/Rectangle-2-Copy.png);
+   background-size: cover;
+  display: block;
+  position:absolute;
+  top: 800px;
+  right: 1300px;
+  width:80px;
+  height: 80px;}
+
+  .img2:after{
+  content:"";
+  font-family: DejaVu Sans Mono, monospace;
+   background: url(https://i.ibb.co/KFKXx6q/Rectangle-2-Copy-9.png);
+   background-size: cover;
+  display: block;
+  position:absolute;
+  top: 800px;
+  right: 1220px;
+  width:80px;
+  height: 80px;}
+
+  .img3:after{
+  content:"";
+  font-family: DejaVu Sans Mono, monospace;
+   background: url(https://i.ibb.co/DQj6dLc/Rectangle-2-Copy-6.png);
+   background-size: cover;
+  display: block;
+  position:absolute;
+  top: 800px;
+  right: 1140px;
+  width:80px;
+  height: 80px;}
+
+  .img4:after{
+  content:"";
+  font-family: DejaVu Sans Mono, monospace;
+   background: url(https://i.ibb.co/BBpZ1pQ/Rectangle-2-Copy-7.png);
+   background-size: cover;
+  display: block;
+  position:absolute;
+  top: 800px;
+  right: 1060px;
+  width:80px;
+  height: 80px;}
+
+  .img5:after{
+  content:"";
+  font-family: DejaVu Sans Mono, monospace;
+   background: url(https://i.ibb.co/mJYjyYm/Rectangle-2-Copy-8.png);
+   background-size: cover;
+  display: block;
+  position:absolute;
+  top: 800px;
+  right: 980px;
+  width:80px;
+  height: 80px;}
+
+  .img6:after{
+  content:"";
+  font-family: DejaVu Sans Mono, monospace;
+   background: url(https://i.ibb.co/mJYjyYm/Rectangle-2-Copy-8.png);
+   background-size: cover;
+  display: block;
+  position:absolute;
+  top: 800px;
+  right: 900px;
+  width:80px;
+  height: 80px;}
+</style>
+
+<style>
+  .twoBlockChild2 {
+      display: inline-block;
+      width: 765px;
+      height:395px;
+      background: url(https://i.ibb.co/Fz1xqrT/image16.jpg);
+      background-size:contain; }
+
+  .twoBlockChild2:after{
+    content: "";
+    position:absolute;
+    top: 170px;
+    right: 360px;
+    width:52px;
+    height: 52px;
+    background: url(https://i.ibb.co/5rWjvm4/image19.png);
+    background-size:contain;}
+
+    .twoBlockChild2:before{
+    content: "";
+    position:absolute;
+    top: 370px;
+    right: 40px;
+    width:126px;
+    height: 10px;
+    background: url(https://i.ibb.co/ws03dgB/image20.png);
+    background-size:contain; }  
+</style>
+
+<style>
+  .threeBlock{
+      width: 1300px;
+      height:400px;
+      margin-right: -10px;}
+
+
+      .lastnews::after{
+      content:"Last News";
+      font-family: Arial Narrow, sans-serif;
+     font-size: 24px;
+     display: block;
+     position:absolute;
+     top: 900px;
+     right: 1245px;
+     width:170px;
+     height: 50px;
+     color:black;
+     padding: 10px;}
+
+     .topMovie::after{
+      content:"Top | Movies | TV | Celebs";
+      font-family: Arial Narrow, sans-serif;
+     font-size: 16px;
+     display: block;
+     position:absolute;
+     top: 905px;
+     right: 1000px;
+     width:190px;
+     height: 50px;
+     color: black;
+     padding: 10px;}
+
+     .jared:after{
+    content:"";
+    background: url(https://i.ibb.co/gwKWP8m/Rectangle-9.png);
+    background-size: cover;
+    display: block;
+    position:absolute;
+    top: 960px;
+    right: 1280px;
+    width:138px;
+    height: 101px;}
+
+    .godzilla:after{
+    content:"";
+    background: url(https://i.ibb.co/Yjzc9SF/Object.png);
+    background-size: cover;
+    display: block;
+    position:absolute;
+    top: 1070px;
+    right: 1280px;
+    width:138px;
+    height: 101px;}
+
+    .ahs:after{
+    content:"";
+    background: url(https://i.ibb.co/hF769xn/Rectangle-9-1.png);
+    background-size: cover;
+    display: block;
+    position:absolute;
+    top: 1180px;
+    right: 1280px;
+    width:138px;
+    height: 101px;}
+
+  .text1:after{
+  content: "Jared Leto Joins 'Blade Runner' Sequel";
+  font-family: Arial Narrow, sans-serif;
+  font-size: 18px;
+  display: block;
+  position:absolute;
+  top: 950px;
+  right: 1000px;
+  width:250px;
+  height: 50px;
+  color: black;
+  padding: 10px;}  
+
+  .text2:after{
+  content: "Jared Leto has joined the upcoming 'Blade Runner' sequel, TheWrap has learned. See more";
+  font-family: Arial Narrow, sans-serif;
+  font-size: 14px;
+  display: block;
+  position:absolute;
+  top: 995px;
+  right: 1008px;
+  width:245px;
+  height: 50px;
+  color: black;
+  padding: 10px;} 
+
+  .text3:after{
+  content: "Toho to Produce First ‘Godzilla’ Animation Movie";
+  font-family: Arial Narrow, sans-serif;
+  font-size: 18px;
+  display: block;
+  position:absolute;
+  top: 1065px;
+  right: 1000px;
+  width:250px;
+  height: 50px;
+  color: black;
+  padding: 10px;}  
+
+  .text4:after{
+  content: "Tokyo – Japan’s movie giant, Toho has announced the production of a feature-length Godzilla animation. See more";
+  font-family: Arial Narrow, sans-serif;
+  font-size: 14px;
+  display: block;
+  position:absolute;
+  top: 1110px;
+  right: 1008px;
+  width:245px;
+  height: 50px;
+  color: black;
+  padding: 10px;} 
+
+  .text5:after{
+  content: "Watch Mysterious New 'American Horror Story' Trailer";
+  font-family: Arial Narrow, sans-serif;
+  font-size: 18px;
+  display: block;
+  position:absolute;
+  top: 1170px;
+  right: 1000px;
+  width:250px;
+  height: 50px;
+  color: black;
+  padding: 10px;}
+
+  .text6:after{
+  content: "Leave it to Ryan Murphy and his team from FX's terrifying American Horror Story to keep fans…See more";
+  font-family: Arial Narrow, sans-serif;
+  font-size: 14px;
+  display: block;
+  position:absolute;
+  top: 1213px;
+  right: 1000px;
+  width:250px;
+  height: 50px;
+  color: black;
+  padding: 10px;}
+
+  </style>
+
+<style>
+.parent {
+    width: 1280px;
+    height:400px;
+    background: white;
+    margin-left: 23px;
+    margin-right: -10px;
+    margin-top: -379px;}
+</style>
+
+<style>
+.child {
+    display: inline-block;
+    vertical-align: top;
+    width: 252px;
+    height:370px;
+    background: white;}
+</style>
+
+<style>
+	.redBlock{
+	position: relative;
+	width: 150px;
+	height: 80px;
+	background: url(https://i.ibb.co/xS5hbNB/image.png) 0 0 no-repeat;
+  background-size:contain;
+  margin-top: -60px;
+  margin-left: 535px;
+	}
+  .redBlock:after{
+  content: "Society";
+  font-family: FreeMono, monospace;
+  text-align:center;
+  display: block;
+  position:absolute;
+  top: 20px;
+  right: 87px;
+  width:20px;
+  height: 40px;
+  color: black;
+  padding: 14px;}
+</style>
+
+<style>
+	.blueBlock{
+	position: relative;
+	width: 35px;
+	height: 370px;
+  margin-left: -13px;
+	background:#2998E2;
+  background-size:auto;}
+</style>
+
+<style>
+	.redBlock2{
+	position: relative;
+	width: 35px;
+	height: 395px;
+  margin-left: -13px;
+  margin-top: -19px;
+	background:#EA4737;
+  background-size:auto;}
+</style>
+
+<style>
+	.next{
+	position: absolute;
+	width: 36px;
+	height: 368px;
+	background: url(https://i.ibb.co/qyyv1vZ/image14.png) 0 60% no-repeat;
+  background-size:cover;
+  margin-top: -371px;
+  margin-left: 217px;}
+</style>
+
+<style>
+	.next1{
+	position: absolute;
+	width: 36px;
+	height: 368px;
+	background: url(https://i.ibb.co/qyyv1vZ/image14.png) 0 60% no-repeat;
+  background-size:cover;
+  margin-top: -390px;
+  margin-left: 1240px;}
+</style>
+
+<style>
+	.whiteBlock{
+	position: relative;
+	width: 150px;
+	height: 80px;
+  margin-top: -80px;
+  margin-left: 320px;
+	}
+  .whiteBlock:after{
+  content: "Box Office";
+  font-family: FreeMono, monospace;
+  display: block;
+  position:absolute;
+  top: 20px;
+  right: 80px;
+  width:90px;
+  height: 50px;
+  color: black;
+  padding: 10px;}
+
+  .whiteBlock2:after{
+  content: "Media";
+  font-family: FreeMono, monospace;
+  display: block;
+  position:absolute;
+  top: 68px;
+  right: 900px;
+  width:80px;
+  height: 50px;
+  color: black;
+  padding: 10px;}
+
+.whiteBlock3:after{
+  content: "Ratings";
+  font-family: FreeMono, monospace;
+  display: block;
+  position:absolute;
+  top: 68px;
+  right: 630px;
+  width:80px;
+  height: 50px;
+  color: black;
+  padding: 10px;}
+
+.whiteBlock4:after{
+  content: "DVD & Blu-Ray";
+  font-family: FreeMono, monospace;
+  display: block;
+  position:absolute;
+  top: 68px;
+  right: 440px;
+  width:150px;
+  height: 50px;
+  color: black;
+  padding: 10px;}
+</style>
+
+<style>
+.number8::after{
+  content: "8";
+  text-align:center;
+  display: block;
+  position:absolute;
+  top: 50px;
+  right: 178px;
+  width:15px;
+  height: 15px;
+  color: white;
+  background: #00C853; 
+  padding: 3px;
+  border-radius: 40px;
+  border-color: white;
+  border-style:solid;}
+</style>
+
+<style>
+  .gradient {
+	display: inline-block;
+	position: relative;    
+	line-height: 0;}
+
+  .gradient:after {
+	content: "";
+	display: block;    
+	width: 100%;
+	height: 100%;    
+	position: absolute;
+	top: 0;      
+	left: 0;   
+	background: transparent;
+	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 47.96%, rgba(23, 23, 23, 0.750368) 100%);
+	opacity: 0.8;}
+</style>
+
+<style>
+.gr {
+	display: inline-block;
+	position: absolute;    
+	line-height: 0;
+}
+.gr:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;    
+	position:absolute;
+	top: 0;    
+	left: 0;   
+	background: url(https://i.ibb.co/pKnHvDF/image13.png) 0 0  no-repeat;
+  background-size: cover;
+	opacity: 0.8; }
+</style>
+
+<style>
+.blur {
+ filter: blur(4px);}
+</style>
+
+<style>
+    body{
+    background-color: #5F7AD3;} 
+    </style>
+
+<style>
+    fieldset{ 
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 20%;
+    width: 1280px }
+</style>  
+
+</head>
+<body>
+   <fieldset style="color:black; background-color:#FFFFFF">
+        <header>
+            <div class="header">
+                <span style="word-spacing: 1010px"><img src="imagelab3/image1.png" width="80" alt=""> <span style="word-spacing: 40px"> <img src="imagelab3/image2.png" width="50" alt=""> <img src="imagelab3/image3.png" width="50" alt=""></span></span>
+                <div class="redBlock"></div> 
+                <div class="number8"></div>
+                <div class="whiteBlock"></div>
+                <div class="whiteBlock2"></div>
+                <div class="whiteBlock3"></div>
+                <div class="whiteBlock4"></div>      
+            </div>
+        </header>
+           
+        <main>
+           <div class="blueBlock"></div>
+           <div class="parent"> 
+                <div class="gradient"> 
+                    <div class="child"><img src="imagelab3/image5.png" width="252" height="370" alt=""></div>
+                    <div class="child"> <img src="imagelab3/image6.png" width="252" height="370" alt=""></div>
+                    <div class="child"> <img src="imagelab3/image7.png" width="252" height="370" alt=""></div>
+                    <div class="child">
+                         <div class="gr">
+                             <div class="blur">
+                                  <img src="imagelab3/image12.png" width="252" height="370" alt="">
+                             </div>
+                         </div>
+                    </div>
+                    <div class="child"><img src="imagelab3/image11.png" width="252" height="370" alt="">
+                        <div class="next"></div>
+                    </div>
+                </div>   
+              </div>
+
+            <div class="redBlock2"></div>
+            <div class="twoBlock">
+                    <div class="twoBlockChild1"></div>
+                    <div class="gradient"> 
+                         <div class="twoBlockChild2"></div> 
+                    </div>
+                    <div class="next1"></div>
+                    <div class="txt1"></div>
+                    <div class="txt2"></div>
+                    <div class="txt3"></div>
+                    <div class="txt4"></div>
+                    <div class="txt5"></div>
+                    <div class="txt6"></div>
+                    <div class="txt7"></div>
+                    <div class="txt8"></div>
+                    <div class="txt9"></div>
+                    <div class="txt10"></div>
+                    <div class="txt11"></div>
+                    <div class="txt12"></div>
+                    <div class="txt13"></div>
+                    <div class="txt14"></div>
+                    <div class="txt15"></div>
+                    <div class="txt16"></div>
+                    <div class="img1"></div>
+                    <div class="img2"></div>
+                    <div class="img3"></div>
+                    <div class="img4"></div>
+                    <div class="img5"></div>
+                    <div class="img6"></div>
+             </div>
+
+             <div class="threeBlock">
+                  <div class="threeBlock1">
+                    <div class="lastnews"></div>
+                    <div class="topMovie"></div>
+                    <div class="jared"></div>
+                    <div class="godzilla"></div>
+                    <div class="ahs"></div>
+                    <div class="text1"></div>
+                    <div class="text2"></div>
+                    <div class="text3"></div>
+                    <div class="text4"></div>
+                    <div class="text5"></div>
+                    <div class="text6"></div>
+                  </div>
+             </div>
+        </main>
+   </fieldset>
+</body>
+</html>
