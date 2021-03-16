@@ -1,0 +1,932 @@
+.list_of_titled_containers {
+    margin-left: 415px;
+}
+
+.titled_container {
+
+}
+
+.borned_today_block {
+    
+}
+
+.container_title {
+    font-size: 30px;
+    margin-bottom: 8px;
+    margin-top: 6px;
+    font-family: Arial Narrow, sans-serif;
+    font-size: 24px;
+}
+
+.list_container {
+    
+}
+
+.list_container_horizontal {
+    display: flex;
+}
+
+.list_item_horizontal {
+    float: left;
+    clear: both;
+}
+
+.list_item_with_icon {
+    margin-left: 4px;
+    margin-right: 4px;
+    max-width: 80px;
+}
+
+.list_item_icon {
+    width: 80px;
+    height: 112px;
+}
+
+.list_item_text {
+    margin-top: 2px;
+    margin-bottom: 4px;
+    font-family: DejaVu Sans Mono, monospace;
+    color: rgb(26, 106, 197);
+}
+
+
+.list_of_titled_containers2 {
+    margin-left: 480px;
+    margin-top:-400px;
+}
+
+.titled_container2 {
+    
+}
+
+.today_wallspapers_block {
+    
+}
+
+.list_item_icon2 {
+    width: 406px;
+    height: 101px;
+}
+
+.fourBlock{
+    width: 1318px;
+    height:400px;
+    margin-top: 30px;
+    margin-left: -13px;
+    background-color:white}
+  
+.list_of_titled_containers3 {
+     margin-left: 20px;
+}
+
+.top_250_block {
+    
+}
+.top_250_title_container {
+
+}
+.top_250_list_container {
+    list-style-type:decimal;
+    padding-left: 8px;
+    padding-right: 64px;
+}
+.top_250_li {
+    margin-top: 2px;
+}
+.top_250_item {
+    display: flex;
+    flex-direction: row;
+}
+.top_250_item_icon {
+    width: 42px;
+    height: 56px;
+}
+.top_250_item_text {
+    margin-left: 20px;
+    flex: 1;
+    font-size: 16px;
+}
+.top_250_rating {
+    align-self: right;
+    font-size: 16px;
+}
+
+.random_movie_movie_block {
+    width: 33%;
+}
+
+.last_news_block {
+}
+
+.last_news_item {
+    float: left;
+    clear: both;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+}
+
+.last_news_item_image {
+    float: left;
+    width: 130px;
+    height: 100px;
+}
+
+.last_news_item_text_container {
+    padding-left: 8px;
+    float: left;
+}
+
+.last_news_item_title {
+    margin-top: 4px;
+    margin-bottom: 0px;
+    font-size: 16pt;
+}
+
+.last_news_item_subtitle {
+    margin-top: 4px;
+    margin-bottom: 0px;
+    font-size: 12pt;
+}
+.last_news_title {
+    font-size: 30px;
+}
+
+.content_line {
+    display: flex;
+}
+.content_3_block {
+    flex: 1;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.content_3_title {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.random_movie_img {
+    width: 100%;
+    height: auto;
+}
+.random_movie_title {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+}
+.random_movie_tag_container {
+    list-style: none; 
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.random_movie_tag_container > li {
+    margin-left: 4px;
+    margin-right: 4px;
+    background-color:gray;
+    border-radius: 4px;
+}
+
+.random_movie_tag_container > li > p {
+    background-color:rgb(46, 47, 49);
+    color: #FFF;
+    margin-left: 4px;
+    margin-right: 0px;
+    margin-top:  0px;
+    margin-bottom: 0px;
+    padding-left: 4px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.randome_movie_bottom_panel {
+    background: #000;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.box_office_list {
+    list-style-type: none; 
+    padding-left: 0px;
+}
+.box_office_list > ul {
+    padding-left: 0px;
+}
+
+/* .list_container {
+        display: flex;
+        max-width: 407px;
+    } */
+    
+/* .list_number_with_icon {
+    margin-left: 4px;
+    margin-right: 4px;
+    width: auto;
+}
+
+.list_number {
+    margin-top: 2px;
+    margin-bottom: 4px;
+    font-family: DejaVu Sans Mono, monospace;
+    color: rgb(26, 106, 197);
+    float: left;
+}
+
+.list_r {
+    margin-top: 2px;
+    margin-bottom: 4px;
+    font-family: DejaVu Sans Mono, monospace;
+    color: black;
+    float: right;
+}
+
+.list_text3 {
+    margin-top: 2px;
+    margin-bottom: 4px;
+    font-family: DejaVu Sans Mono, monospace;
+    color: rgb(26, 106, 197);
+    float: left;
+    display: flex;
+} */
+
+.list_text4 {
+    margin-top: -30px;
+    margin-bottom: 4px;
+    margin-left: 250px;
+    font-family: DejaVu Sans Mono, monospace;
+    color: rgb(26, 106, 197);
+}
+
+/* .list_item_icon3 {
+    width: 42px;
+    height: 56px;
+    float: left;
+} */
+
+  .twoBlock {
+      width: 1280px;
+      height:400px;
+      background: white;
+      margin-left: 23px;
+      margin-right: -10px;
+      margin-top: -395px;}
+
+  .twoBlockChild1 {
+      display: inline-block;
+      vertical-align: top;
+      width: 510px;
+      height:395px;
+      margin-right: -4px;
+      background: black; }
+
+    .twoBlockChild1:before {
+      content:"";
+      position:absolute;
+      top: 510px;
+      right:1230px;
+      background: url(https://i.ibb.co/vQBc7hk/image15.png);
+      background-size:contain;
+      width: 156px;
+      height:221px;}
+
+      .twoBlockChild1:after {
+      content:"";
+      position:absolute;
+      background: green;
+      top: 505px;
+      right:1350px;
+      background: url(https://i.ibb.co/Vj6kXMj/image17.png);
+      background-size:contain;
+      width: 32px;
+      height:32px;}
+
+  .txt1:after{
+  content:"Jason Bourne";
+  font-family: DejaVu Sans Mono, monospace;
+  font-size: 24px;
+  display: block;
+  position:absolute;
+  top: 500px;
+  right: 830px;
+  width:300px;
+  height: 50px;
+  color:rgb(207, 212, 216);
+  padding: 10px;}
+
+  .txt2:after{
+  content: "year";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 550px;
+  right: 1100px;
+  width:80px;
+  height: 50px;
+  color: rgb(26, 87, 156);
+  padding: 10px;}
+
+  .txt3:after{
+  content: "country";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 580px;
+  right: 1100px;
+  width:80px;
+  height: 50px;
+  color: rgb(26, 87, 156);
+  padding: 10px;}
+
+  .txt4:after{
+  content: "director";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 610px;
+  right: 1100px;
+  width:80px;
+  height: 50px;
+  color: rgb(26, 87, 156);
+  padding: 10px;}
+
+  .txt5:after{
+  content: "genres";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 640px;
+  right: 1100px;
+  width:80px;
+  height: 50px;
+  color: rgb(26, 87, 156);
+  padding: 10px;}
+
+  .txt6:after{
+  content: "budget";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 670px;
+  right: 1100px;
+  width:80px;
+  height: 50px;
+  color: rgb(26, 87, 156);
+  padding: 10px;}
+
+  .txt7:after{
+  content: "duration";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 700px;
+  right: 1100px;
+  width:80px;
+  height: 50px;
+  color: rgb(26, 87, 156);
+  padding: 10px;}
+
+  .txt8:after{
+  content: "2016";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 550px;
+  right: 950px;
+  width:80px;
+  height: 50px;
+  color:rgb(207, 212, 216);
+  padding: 10px;}
+
+  .txt9:after{
+  content: "USA";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 580px;
+  right: 950px;
+  width:80px;
+  height: 50px;
+  color:rgb(207, 212, 216);
+  padding: 10px;}
+
+  .txt10:after{
+  content: "Paul Greengrass";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 610px;
+  right: 860px;
+  width:170px;
+  height: 50px;
+  color:rgb(207, 212, 216);
+  padding: 10px;}
+
+  .txt11:after{
+  content:"";
+  font-family: DejaVu Sans Mono, monospace;
+   background: url(https://i.ibb.co/Qvn00Sr/image18.png);
+   background-size: cover;
+  display: block;
+  position:absolute;
+  top: 650px;
+  right: 920px;
+  width:170px;
+  height: 20px;}
+
+  .txt12:after{
+  content: "action";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 643px;
+  right: 900px;
+  width:170px;
+  height: 50px;
+  color:rgb(207, 212, 216);
+  padding: 10px;}
+
+  .txt13:after{
+  content: "thriller";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 643px;
+  right: 810px;
+  width:170px;
+  height: 50px;
+  color:rgb(207, 212, 216);
+  padding: 10px;}
+
+  .txt14:after{
+  content: "$120 000 000";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 670px;
+  right: 860px;
+  width:170px;
+  height: 50px;
+  color:rgb(207, 212, 216);
+  padding: 10px;}
+
+  .txt15:after{
+  content: "123min";
+  font-family: DejaVu Sans Mono, monospace;
+  display: block;
+  position:absolute;
+  top: 700px;
+  right: 860px;
+  width:170px;
+  height: 50px;
+  color:rgb(207, 212, 216);
+  padding: 10px;}
+
+  .txt16:after{
+  content: "You might remember the Dell computer commercials in which a youth reports this exciting news to his friends that they are about to get their new computer by telling them.";
+  font-family: DejaVu Sans Mono, monospace;
+  font-size: 14px;
+  display: block;
+  position:absolute;
+  top: 730px;
+  right: 890px;
+  width:471px;
+  height: 50px;
+  color:rgb(207, 212, 216);
+  padding: 10px;}
+
+
+  .img1{
+  content:"";
+  font-family: DejaVu Sans Mono, monospace;
+   background: url(https://i.ibb.co/pj93KK5/Rectangle-2-Copy.png);
+   background-size: cover;
+  display: block;
+  position:absolute;
+  top: 800px;
+  right: 1300px;
+  width:80px;
+  height: 80px;}
+
+  .img2{
+  content:"";
+  font-family: DejaVu Sans Mono, monospace;
+   background: url(https://i.ibb.co/KFKXx6q/Rectangle-2-Copy-9.png);
+   background-size: cover;
+  display: block;
+  position:absolute;
+  top: 800px;
+  right: 1220px;
+  width:80px;
+  height: 80px;}
+
+  .img3{
+  content:"";
+  font-family: DejaVu Sans Mono, monospace;
+   background: url(https://i.ibb.co/DQj6dLc/Rectangle-2-Copy-6.png);
+   background-size: cover;
+  display: block;
+  position:absolute;
+  top: 800px;
+  right: 1140px;
+  width:80px;
+  height: 80px;}
+
+  .img4{
+  content:"";
+  font-family: DejaVu Sans Mono, monospace;
+   background: url(https://i.ibb.co/BBpZ1pQ/Rectangle-2-Copy-7.png);
+   background-size: cover;
+  display: block;
+  position:absolute;
+  top: 800px;
+  right: 1060px;
+  width:80px;
+  height: 80px;}
+
+  .img5{
+  content:"";
+  font-family: DejaVu Sans Mono, monospace;
+   background: url(https://i.ibb.co/mJYjyYm/Rectangle-2-Copy-8.png);
+   background-size: cover;
+  display: block;
+  position:absolute;
+  top: 800px;
+  right: 980px;
+  width:80px;
+  height: 80px;}
+
+  .img6{
+  content:"";
+  font-family: DejaVu Sans Mono, monospace;
+   background: url(https://i.ibb.co/P5zpnRc/Rectangle-2-Copy-5.png);
+   background-size: cover;
+  display: block;
+  position:absolute;
+  top: 800px;
+  right: 900px;
+  width:80px;
+  height: 80px;}
+
+  .twoBlockChild2 {
+      display: inline-block;
+      width: 765px;
+      height:395px;
+      background: url(https://i.ibb.co/Fz1xqrT/image16.jpg);
+      background-size:contain; }
+
+  .twoBlockChild2:after{
+    content: "";
+    position:absolute;
+    top: 170px;
+    right: 360px;
+    width:52px;
+    height: 52px;
+    background: url(https://i.ibb.co/5rWjvm4/image19.png);
+    background-size:contain;}
+
+    .twoBlockChild2:before{
+    content: "";
+    position:absolute;
+    top: 370px;
+    right: 40px;
+    width:126px;
+    height: 10px;
+    background: url(https://i.ibb.co/ws03dgB/image20.png);
+    background-size:contain; }  
+
+  .threeBlock{
+      width: 100%;
+      margin-right: -10px;
+    }
+    
+
+      .lastnews::after{
+      content:"Last News";
+      font-family: Arial Narrow, sans-serif;
+     font-size: 24px;
+     display: block;
+     position:absolute;
+        float:left;
+     color:black;
+     padding: 10px;}
+
+     .topMovie::after{
+      content:"Top | Movies | TV | Celebs";
+      font-family: Arial Narrow, sans-serif;
+     font-size: 16px;
+     display: block;
+     position:absolute;
+     top: 905px;
+     right: 1000px;
+     width:190px;
+     height: 50px;
+     color: black;
+     padding: 10px;}
+
+     .jared:after{
+    content:"";
+    background: url(https://i.ibb.co/gwKWP8m/Rectangle-9.png);
+    background-size: cover;
+    display: block;
+    position:absolute;
+    top: 960px;
+    right: 1280px;
+    width:138px;
+    height: 101px;}
+
+    .godzilla:after{
+    content:"";
+    background: url(https://i.ibb.co/Yjzc9SF/Object.png);
+    background-size: cover;
+    display: block;
+    position:absolute;
+    top: 1070px;
+    right: 1280px;
+    width:138px;
+    height: 101px;}
+
+    .ahs:after{
+    content:"";
+    background: url(https://i.ibb.co/hF769xn/Rectangle-9-1.png);
+    background-size: cover;
+    display: block;
+    position:absolute;
+    top: 1180px;
+    right: 1280px;
+    width:138px;
+    height: 101px;}
+
+  .text1:after{
+  content: "Jared Leto Joins 'Blade Runner' Sequel";
+  font-family: Arial Narrow, sans-serif;
+  font-size: 18px;
+  display: block;
+  position:absolute;
+  top: 950px;
+  right: 1000px;
+  width:250px;
+  height: 50px;
+  color: black;
+  padding: 10px;}  
+
+  .text2:after{
+  content: "Jared Leto has joined the upcoming 'Blade Runner' sequel, TheWrap has learned. See more";
+  font-family: Arial Narrow, sans-serif;
+  font-size: 14px;
+  display: block;
+  position:absolute;
+  top: 995px;
+  right: 1008px;
+  width:245px;
+  height: 50px;
+  color: black;
+  padding: 10px;} 
+
+  .text3:after{
+  content: "Toho to Produce First ‘Godzilla’ Animation Movie";
+  font-family: Arial Narrow, sans-serif;
+  font-size: 18px;
+  display: block;
+  position:absolute;
+  top: 1065px;
+  right: 1000px;
+  width:250px;
+  height: 50px;
+  color: black;
+  padding: 10px;}  
+
+  .text4:after{
+  content: "Tokyo – Japan’s movie giant, Toho has announced the production of a feature-length Godzilla animation. See more";
+  font-family: Arial Narrow, sans-serif;
+  font-size: 14px;
+  display: block;
+  position:absolute;
+  top: 1110px;
+  right: 1008px;
+  width:245px;
+  height: 50px;
+  color: black;
+  padding: 10px;} 
+
+  .text5:after{
+  content: "Watch Mysterious New 'American Horror Story' Trailer";
+  font-family: Arial Narrow, sans-serif;
+  font-size: 18px;
+  display: block;
+  position:absolute;
+  top: 1170px;
+  right: 1000px;
+  width:250px;
+  height: 50px;
+  color: black;
+  padding: 10px;}
+
+  .text6:after{
+  content: "Leave it to Ryan Murphy and his team from FX's terrifying American Horror Story to keep fans…See more";
+  font-family: Arial Narrow, sans-serif;
+  font-size: 14px;
+  display: block;
+  position:absolute;
+  top: 1213px;
+  right: 1000px;
+  width:250px;
+  height: 50px;
+  color: black;
+  padding: 10px;}
+
+.parent {
+    width: 1280px;
+    height:400px;
+    background: white;
+    margin-left: 23px;
+    margin-right: -10px;
+    margin-top: -379px;}
+
+.child {
+    display: inline-block;
+    vertical-align: top;
+    width: 252px;
+    height:370px;
+    background: white;}
+
+	.redBlock{
+	position: relative;
+	width: 150px;
+	height: 80px;
+	background: url(https://i.ibb.co/xS5hbNB/image.png) 0 0 no-repeat;
+  background-size:contain;
+  margin-top: -60px;
+  margin-left: 535px;
+	}
+  .redBlock:after{
+  content: "Society";
+  font-family: FreeMono, monospace;
+  text-align:center;
+  display: block;
+  position:absolute;
+  top: 20px;
+  right: 87px;
+  width:20px;
+  height: 40px;
+  color: black;
+  padding: 14px;}
+
+	.blueBlock{
+	position: relative;
+	width: 35px;
+	height: 370px;
+  margin-left: -13px;
+	background:#2998E2;
+  background-size:auto;}
+
+	.redBlock2{
+	position: relative;
+	width: 35px;
+	height: 395px;
+  margin-left: -13px;
+  margin-top: -19px;
+	background:#EA4737;
+  background-size:auto;}
+
+	.next{
+	position: absolute;
+	width: 36px;
+	height: 368px;
+	background: url(https://i.ibb.co/qyyv1vZ/image14.png) 0 60% no-repeat;
+  background-size:cover;
+  margin-top: -371px;
+  margin-left: 217px;}
+
+	.next1{
+	position: absolute;
+	width: 36px;
+	height: 368px;
+	background: url(https://i.ibb.co/qyyv1vZ/image14.png) 0 60% no-repeat;
+  background-size:cover;
+  margin-top: -390px;
+  margin-left: 1240px;}
+
+
+
+	.whiteBlock{
+	position: relative;
+	width: 150px;
+	height: 80px;
+  margin-top: -80px;
+  margin-left: 320px;
+	}
+  .whiteBlock:after{
+  content: "Box Office";
+  font-family: FreeMono, monospace;
+  display: block;
+  position:absolute;
+  top: 20px;
+  right: 80px;
+  width:90px;
+  height: 50px;
+  color: black;
+  padding: 10px;}
+
+  .whiteBlock2:after{
+  content: "Media";
+  font-family: FreeMono, monospace;
+  display: block;
+  position:absolute;
+  top: 68px;
+  right: 900px;
+  width:80px;
+  height: 50px;
+  color: black;
+  padding: 10px;}
+
+.whiteBlock3:after{
+  content: "Ratings";
+  font-family: FreeMono, monospace;
+  display: block;
+  position:absolute;
+  top: 68px;
+  right: 630px;
+  width:80px;
+  height: 50px;
+  color: black;
+  padding: 10px;}
+
+.whiteBlock4:after{
+  content: "DVD & Blu-Ray";
+  font-family: FreeMono, monospace;
+  display: block;
+  position:absolute;
+  top: 68px;
+  right: 440px;
+  width:150px;
+  height: 50px;
+  color: black;
+  padding: 10px;}
+
+.number8::after{
+  content: "8";
+  text-align:center;
+  position:absolute;
+  top: 50px;
+  right: 178px;
+  width:15px;
+  height: 15px;
+  color: white;
+  background: #00C853; 
+  padding: 3px;
+  border-radius: 40px;
+  border-color: white;
+  border-style:solid;}
+
+  .gradient {
+	display: inline-block;
+	position: relative;    
+	line-height: 0;}
+
+  .gradient:after {
+	content: "";
+	display: block;    
+	width: 100%;
+	height: 100%;    
+	position: absolute;
+	top: 0;      
+	left: 0;   
+	background: transparent;
+	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 47.96%, rgba(23, 23, 23, 0.750368) 100%);
+	opacity: 0.8;}
+
+
+
+.gr {
+	display: inline-block;
+	position: absolute;    
+	line-height: 0;
+}
+.gr:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;    
+	position:absolute;
+	top: 0;    
+	left: 0;   
+	background: url(https://i.ibb.co/pKnHvDF/image13.png) 0 0  no-repeat;
+  background-size: cover;
+	opacity: 0.8; }
+
+
+.blur {
+ filter: blur(4px);}
+
+
+
+    body{
+    background-color: #5F7AD3;} 
+
+    fieldset{ 
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 20%;
+    width: 1280px }
