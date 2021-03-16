@@ -105,6 +105,8 @@
     margin-left: 20px;
     flex: 1;
     font-size: 16px;
+    color: rgb(26, 106, 197); 
+    font-family: DejaVu Sans Mono, monospace;
 }
 .top_250_rating {
     align-self: right;
@@ -140,16 +142,16 @@
 .last_news_item_title {
     margin-top: 4px;
     margin-bottom: 0px;
-    font-size: 16pt;
+    font-size: 14pt;
 }
 
 .last_news_item_subtitle {
     margin-top: 4px;
     margin-bottom: 0px;
-    font-size: 12pt;
+    font-size: 11pt;
 }
 .last_news_title {
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .content_line {
@@ -163,6 +165,7 @@
 .content_3_title {
     font-size: 25px;
     margin-bottom: 0;
+    margin-top:8px;
 }
 
 .random_movie_img {
@@ -186,6 +189,7 @@
     margin-right: 4px;
     background-color:gray;
     border-radius: 4px;
+    width: 70px;
 }
 
 .random_movie_tag_container > li > p {
@@ -215,42 +219,6 @@
     padding-left: 0px;
 }
 
-/* .list_container {
-        display: flex;
-        max-width: 407px;
-    } */
-    
-/* .list_number_with_icon {
-    margin-left: 4px;
-    margin-right: 4px;
-    width: auto;
-}
-
-.list_number {
-    margin-top: 2px;
-    margin-bottom: 4px;
-    font-family: DejaVu Sans Mono, monospace;
-    color: rgb(26, 106, 197);
-    float: left;
-}
-
-.list_r {
-    margin-top: 2px;
-    margin-bottom: 4px;
-    font-family: DejaVu Sans Mono, monospace;
-    color: black;
-    float: right;
-}
-
-.list_text3 {
-    margin-top: 2px;
-    margin-bottom: 4px;
-    font-family: DejaVu Sans Mono, monospace;
-    color: rgb(26, 106, 197);
-    float: left;
-    display: flex;
-} */
-
 .list_text4 {
     margin-top: -30px;
     margin-bottom: 4px;
@@ -259,11 +227,40 @@
     color: rgb(26, 106, 197);
 }
 
-/* .list_item_icon3 {
-    width: 42px;
-    height: 56px;
+.recently_viewed_block {
+    display: flex;
+}
+
+.recently_viewed_item {
+    margin-left: 1px;
+    margin-right: 1px;
+    width: 80px;
+    height: 112px;
     float: left;
-} */
+    clear: both;
+}
+
+.download_btn {
+    width: 124px;
+    height: 38;
+}
+
+.follow_us_btn {
+    width: 54px;
+    height: 54px;
+}
+
+.flickr_image {
+    width: 63px;
+    height: 64px;
+}
+
+.flickr_link {
+    color: blue;
+    width: 33%;
+    margin-top:    4px;
+    margin-bottom: 4px;
+}
 
   .twoBlock {
       width: 1280px;
@@ -596,21 +593,6 @@
     background: url(https://i.ibb.co/ws03dgB/image20.png);
     background-size:contain; }  
 
-  .threeBlock{
-      width: 100%;
-      margin-right: -10px;
-    }
-    
-
-      .lastnews::after{
-      content:"Last News";
-      font-family: Arial Narrow, sans-serif;
-     font-size: 24px;
-     display: block;
-     position:absolute;
-        float:left;
-     color:black;
-     padding: 10px;}
 
      .topMovie::after{
       content:"Top | Movies | TV | Celebs";
@@ -618,123 +600,13 @@
      font-size: 16px;
      display: block;
      position:absolute;
-     top: 905px;
+     top: 900px;
      right: 1000px;
      width:190px;
      height: 50px;
      color: black;
      padding: 10px;}
-
-     .jared:after{
-    content:"";
-    background: url(https://i.ibb.co/gwKWP8m/Rectangle-9.png);
-    background-size: cover;
-    display: block;
-    position:absolute;
-    top: 960px;
-    right: 1280px;
-    width:138px;
-    height: 101px;}
-
-    .godzilla:after{
-    content:"";
-    background: url(https://i.ibb.co/Yjzc9SF/Object.png);
-    background-size: cover;
-    display: block;
-    position:absolute;
-    top: 1070px;
-    right: 1280px;
-    width:138px;
-    height: 101px;}
-
-    .ahs:after{
-    content:"";
-    background: url(https://i.ibb.co/hF769xn/Rectangle-9-1.png);
-    background-size: cover;
-    display: block;
-    position:absolute;
-    top: 1180px;
-    right: 1280px;
-    width:138px;
-    height: 101px;}
-
-  .text1:after{
-  content: "Jared Leto Joins 'Blade Runner' Sequel";
-  font-family: Arial Narrow, sans-serif;
-  font-size: 18px;
-  display: block;
-  position:absolute;
-  top: 950px;
-  right: 1000px;
-  width:250px;
-  height: 50px;
-  color: black;
-  padding: 10px;}  
-
-  .text2:after{
-  content: "Jared Leto has joined the upcoming 'Blade Runner' sequel, TheWrap has learned. See more";
-  font-family: Arial Narrow, sans-serif;
-  font-size: 14px;
-  display: block;
-  position:absolute;
-  top: 995px;
-  right: 1008px;
-  width:245px;
-  height: 50px;
-  color: black;
-  padding: 10px;} 
-
-  .text3:after{
-  content: "Toho to Produce First ‘Godzilla’ Animation Movie";
-  font-family: Arial Narrow, sans-serif;
-  font-size: 18px;
-  display: block;
-  position:absolute;
-  top: 1065px;
-  right: 1000px;
-  width:250px;
-  height: 50px;
-  color: black;
-  padding: 10px;}  
-
-  .text4:after{
-  content: "Tokyo – Japan’s movie giant, Toho has announced the production of a feature-length Godzilla animation. See more";
-  font-family: Arial Narrow, sans-serif;
-  font-size: 14px;
-  display: block;
-  position:absolute;
-  top: 1110px;
-  right: 1008px;
-  width:245px;
-  height: 50px;
-  color: black;
-  padding: 10px;} 
-
-  .text5:after{
-  content: "Watch Mysterious New 'American Horror Story' Trailer";
-  font-family: Arial Narrow, sans-serif;
-  font-size: 18px;
-  display: block;
-  position:absolute;
-  top: 1170px;
-  right: 1000px;
-  width:250px;
-  height: 50px;
-  color: black;
-  padding: 10px;}
-
-  .text6:after{
-  content: "Leave it to Ryan Murphy and his team from FX's terrifying American Horror Story to keep fans…See more";
-  font-family: Arial Narrow, sans-serif;
-  font-size: 14px;
-  display: block;
-  position:absolute;
-  top: 1213px;
-  right: 1000px;
-  width:250px;
-  height: 50px;
-  color: black;
-  padding: 10px;}
+  
 
 .parent {
     width: 1280px;
