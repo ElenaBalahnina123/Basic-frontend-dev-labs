@@ -1,8 +1,25 @@
 
-.image_position{
-    position: absolute;
-    top: 133px;
-    left: 780px;
-    width:687px;
-    height:579px;
+.bg-gradient {
+    background: url(https://i.ibb.co/vq8V9DF/Hero.png);
+    background-size: cover;
+  }
+
+.bg-bluecolor1{
+    background-color: #5A98D0;
+}
+
+.bg-bluecolor2{
+  background-color: #1F3F68;
+}
+
+.bg-bluecolor3{
+  background-color: #316099;
+}
+
+.border-radius1{
+  border-top-left-radius: 180px 180px;
+}
+
+.border-radius2{
+  border-top-right-radius: 180px 180px;
 }
