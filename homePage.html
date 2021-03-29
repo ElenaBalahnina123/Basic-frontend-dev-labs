@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HomePage</title>
     <link rel="stylesheet" href="homePage.css">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
    <header>
@@ -26,7 +26,11 @@
           <div class="max-w-full">
               <p class="lg:text-2xl text-gray-400 leading-loose px-40">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Faucibus tristique vulputate ultrices ut mauris <br>tellus at. Posuere sollicitudin odio tellus elit.</p>
           </div>
-          <button class="bg-bluecolor1 rounded-md text-white p-5 mt-24 mb-52 px-20 ml-40"><p>See Our Project</p></button>
+          
+        <button id="knopka" class="bg-bluecolor1 rounded-md text-white p-5 mt-24 mb-52 px-20 ml-40" onclick="showAlert();">
+          <span class="text-xl text-white"> See Our Project </span>
+      </button>
+          
        </div> 
      </div>
    </header>
@@ -152,7 +156,9 @@
             <p class=" lg:text-4xl text-white leading-4 px-5 font-medium tracking-wider">Intersted to work<br> with our team?</p>
             <p class=" mt-12 ml-5 lg:text-1xl text-gray-300 leading-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit,  <br> sed do eiusmod tempor incididunt ut labore et dolore <br> magna aliqua. Ut enim ad minim veniam.</p>
           </div>
-            <button class="flex-shrink-0 ml-64 text-gray-300 bg-bluecolor1  py-2 px-20  rounded text-lg  sm:mt-0">Let's Talk</button>
+          <form name="forma16">
+            <input class="flex-shrink-0 ml-64 text-gray-300 bg-bluecolor1  py-2 px-20  rounded text-lg  sm:mt-0" type="button" value="Let's Talk" onClick="showAlert()">
+        </form>
           </div>
         </div>
        <div class="border-t-2 w-10/12"></div>
