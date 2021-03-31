@@ -11,3 +11,20 @@
 .color2{
     color: #4F79A4;
 }
+
+.groundVector{
+    background-image: url(https://i.ibb.co/jL4p6gR/Vector-3-2.png);
+    background-size: cover;
+}
+
+.groundBlue{
+    background-image: url(https://i.ibb.co/6vZdmVJ/2021-03-31-214447.png);
+    background-size: cover;
+}
+
+.color3{
+    background: rgba(19, 241, 252, 0.2);
+border: 2px solid rgba(19, 241, 252, 0.2);
+box-sizing: border-box;
+border-radius: 24.5px;
+}
