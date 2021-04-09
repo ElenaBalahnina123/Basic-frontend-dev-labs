@@ -1,7 +1,11 @@
 
 .ground {
-    background-image: url(https://i.ibb.co/1TDxhH7/Header-1.png);
-    background-size: cover;
+    background: url(https://i.ibb.co/1TDxhH7/Header-1.png);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    border-top: none;
+    padding-top: 40px;
 }
 
 .color1{
@@ -15,6 +19,7 @@
 .groundVector{
     background-image: url(https://i.ibb.co/BZswxsL/2021-04-01-005521.png);
     background-size: cover;
+
 }
 
 .groundBlue{
@@ -27,4 +32,11 @@
 border: 2px solid rgba(19, 241, 252, 0.2);
 box-sizing: border-box;
 border-radius: 24.5px;
+}
+
+.download_button {
+    background: #2BAEEE;
+    border: 2px solid rgba(19, 241, 252, 0.2);
+    box-sizing: border-box;
+    border-radius: 24.5px;
 }
